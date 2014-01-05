@@ -1,4 +1,4 @@
-public class P1_1_23 {
+public class P1_1_24 {
 
     public static int gcd(int p, int q) {
         return rec(p, q, 0);

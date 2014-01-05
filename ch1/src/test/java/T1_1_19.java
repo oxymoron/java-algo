@@ -16,6 +16,7 @@ public class T1_1_19 {
         thread.start();
         thread.join(1000);
         assertFalse(thread.isAlive());
+        thread.interrupt();
     }
 
     @Test
@@ -29,6 +30,7 @@ public class T1_1_19 {
         thread.start();
         thread.join(1000);
         assertTrue(thread.isAlive());
+        thread.interrupt();
     }
 
     @Test
@@ -42,6 +44,7 @@ public class T1_1_19 {
         thread.start();
         thread.join(1000);
         assertFalse(thread.isAlive());
+        thread.interrupt();
     }
 
 }
